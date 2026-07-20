@@ -247,7 +247,7 @@
     border: 1px solid color-mix(in srgb, var(--ink) 12%, transparent);
     border-radius: 6px;
     box-shadow: 0 16px 32px -12px rgba(0,0,0,0.35);
-    padding: 8px 8px 28px;
+    padding: 8px 8px 12px;
     transform: rotate(-2deg);
   }
   .photo-card .tape { width: 56px; height: 20px; }
@@ -265,13 +265,13 @@
   }
   .photo-card .frame img { width: 100%; height: 100%; object-fit: cover; display: block; }
   .photo-card .caption {
-    position: absolute;
-    bottom: 6px;
-    left: 0;
-    right: 0;
+    display: block;
+    margin-top: 8px;
+    padding: 0 4px;
     text-align: center;
     font-family: "Chalkboard SE", "Bradley Hand", "Comic Sans MS", cursive;
     font-size: 12px;
+    line-height: 1.4;
     color: var(--ink-soft);
   }
 
